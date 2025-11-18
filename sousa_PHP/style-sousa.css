@@ -1,4 +1,4 @@
-/* 1. VARIÁVEIS, ESTILOS GLOBAIS E RESET */
+
 :root {
     /* Paleta de Cores Mais Legível */
     --cor-primaria: #160066; /* Azul Escuro (Para Títulos e Destaques) */
@@ -28,7 +28,7 @@ body {
 
 /* 2. ESTILOS DE TÍTULOS */
 
-/* CORREÇÃO CRÍTICA AQUI: O valor de 'margin-bottom' estava errado (625rem é gigantesco). */
+
 h1 {
     font-size: 3rem; 
     font-weight: 500;
@@ -58,7 +58,7 @@ h2::after {
     border-radius: 0.1875rem; 
 }
 
-/* 3. SEÇÃO HERO (DESTAQUE PRINCIPAL) */
+
 .hero {
     background-image: url('hero-sousa.jpg'); /* Caminho Local */
     background-size: cover;
@@ -247,4 +247,5 @@ hr {
     .content-block {
         padding: 1.25rem; 
     }
+
 }
