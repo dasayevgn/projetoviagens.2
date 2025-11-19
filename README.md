@@ -13,4 +13,11 @@ CRONOGRAMA
 
 12|11|2025= DEFINIÇÃO DA EQUIPE DO PROJETO
 12|11|2025= DEFINIÇÃO DO TEMA E FUNÇÕES DE CADA ESTUDANTE
-19/11/2055 correção de erros e ajustes no css 
+19/11/2055 =correção de erros e ajustes no css
+
+Página ParaíbaViagens.2
+
+1-Fale conosco(vai salvar as mensagans que serão enviados. Como: Nome, e-mail, contato)
+2-Cadastro( vai salva os dados pessoais do cliente)
+3- Admin[Alterar e excluir]- Onde poderá fazer as alterações pertinentes.
+
