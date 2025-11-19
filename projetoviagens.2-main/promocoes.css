@@ -1,0 +1,28 @@
+/* O BANNER PARA QUE FIQUE QUE NEM UM SLIDE */
+.carrossel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slides {
+            display: flex;
+            width: 500px;
+            animation: deslizar 15s infinite;
+        }
+
+        .slide {
+            width: 100%;
+            flex-shrink: 0;
+        }
+
+        .slide img {
+            width: 100%;
+        }
+/* usei o keyframes para fazer a animação de ir ao lado */
+        @keyframes deslizar {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
