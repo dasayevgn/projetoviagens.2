@@ -1,6 +1,7 @@
 <?php
     echo "<h2>Fale Conosco</h2>";
 ?>
+<link rel="stylesheet" href="faleconosco.css">
 <form action="/action_page.php">
     <div class="mb-3">
         <label for="pwd" class="form-label">Nome:</label>
