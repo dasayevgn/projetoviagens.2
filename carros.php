@@ -1,4 +1,6 @@
- <section class="page-header">
+
+ <link rel="stylesheet" href="carros.css">
+<section class="page-header">
         <div class="container">
             <h2>Nossos Carros</h2>
             <p>Escolha o veículo ideal para sua necessidade</p>
