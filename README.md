@@ -12,7 +12,7 @@ CRONOGRAMA
 
 Página ParaíbaViagens.2
 
-1-Fale conosco(vai salvar as mensagens que serão enviadas. Como: Nome, e-mail, contato) 2-Cadastro(vai salvar os dados pessoais do cliente) 3- Admin[Alterar e excluir]- Onde poderá fazer as alterações pertinentes.
+1-Fale conosco(vai salvar as mensagens que serão enviadas. Como: Nome, e-mail, assunto, mensagem) 2-Cadastro(vai salvar os dados pessoais do cliente) 3- Admin[Alterar e excluir]- Onde poderá fazer as alterações pertinentes.
 
 Codigos sql do faleconosco:
 
