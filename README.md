@@ -14,6 +14,11 @@ Página ParaíbaViagens.2
 
 1-Fale conosco(vai salvar as mensagens que serão enviadas. Como: Nome, e-mail, contato) 2-Cadastro(vai salvar os dados pessoais do cliente) 3- Admin[Alterar e excluir]- Onde poderá fazer as alterações pertinentes.
 
-Códigos sql do faleconosco:
+Codigos sql do faleconosco:
 
-CREATE TABLE assuntos( nome VARCHAR(150) NOT NULL, email VARCHAR(150), assunto VARCHAR(100), mensagem VARCHAR(500) )
+CREATE TABLE assuntos(
+    nome VARCHAR(150) NOT NULL,
+    email VARCHAR(150),
+    assunto VARCHAR(100),
+    mensagem VARCHAR(500)
+)

@@ -5,8 +5,6 @@
     <form class="ajuste3" action="passagens.html">
         <label>Nome:</label>
         <input type="text" name="nome" required><br><br>
-        <label>Sobrenome:</label>
-        <input type="text" name="nome" required><br><br>
         <label>Idade:</label>
         <input type="number" min="18" required><br><br>
         <label for="email">Email:</label>

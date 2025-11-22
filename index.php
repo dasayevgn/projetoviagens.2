@@ -4,7 +4,7 @@
     include_once("menu.php");
 
     if(empty($_SERVER["QUERY_STRING"])){
-        $pg = "conteudo";
+        $pg = "passagens";
         include_once("$pg.php");
     }elseif($_GET['pg']){
         $pg = $_GET['pg'];
