@@ -2,28 +2,23 @@
     echo "<h2>Fale Conosco</h2>";
 ?>
 <link rel="stylesheet" href="faleconosco.css">
-<form action="/action_page.php">
+<form action="?pg=enviar" method="post">
     <div class="mb-3">
-        <label for="pwd" class="form-label">Nome:</label>
-        <input type="text" class="form-control" id="pwd" placeholder="Seu nome" name="pswd">
+        <label>Nome:</label>
+        <input type="text" name="nome"><br>
     </div>
     <div class="mb-3 mt-3">
-        <label for="email" class="form-label">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Seu email" name="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
     </div>
     <div class="mb-3 mt-3">
-        <label for="email" class="form-label">Assunto:</label>
-        <input type="text" class="form-control" id="email" placeholder="Assunto" name="email">
+        <label>Assunto:</label>
+        <input type="text" name="assunto"><br>
     </div>
     <div class="mb-3 mt-3">
-        <label for="email" class="form-label">Email:</label>
-        <textarea type="text" class="form-control" id="email" placeholder="Sua mensagem" name="email"></textarea>
-    </div>
-
-    <div class="form-check mb-3">
-        <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="remember"> Remember me
-        </label>
+        <label>Mensagem:</label>
+        <textarea type="text" placeholder="Sua mensagem" name="mensagem"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
+
 </form>
