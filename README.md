@@ -23,7 +23,7 @@ CREATE TABLE assuntos(
     email VARCHAR(150),
     assunto VARCHAR(100),
     mensagem VARCHAR(500)
-);
+)
 
 
 códigos do cadastro: 
@@ -36,4 +36,4 @@ CREATE TABLE usuarios (
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL,
     criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+)
