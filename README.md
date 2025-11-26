@@ -8,4 +8,4 @@ CREATE TABLE clientes (
     senha VARCHAR(255) NOT NULL,
     termo TINYINT(1) DEFAULT 0,
     criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+)
