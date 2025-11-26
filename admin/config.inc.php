@@ -1,6 +1,6 @@
 <?php
 
-    $conexao = mysqli_connect("localhost","root","");
+    $conexao = mysqli_connect("localhost:3306","root","");
 
     $db = mysqli_select_db($conexao,"projetoviagens.2");
 

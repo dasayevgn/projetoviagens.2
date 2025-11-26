@@ -1,14 +1,25 @@
 <?php
 
-    echo "<h1>Painel administrativo</h1>";
+echo "<h1>Painel administrativo</h1>";
 
-    echo "<a href='?pg=mensagens'>Listar De Mensagens</a> ";
+echo "<a href='?pg=clientes-admin'>Listar Clientes</a> | ";
+echo "<a href='?pg=mensagens'>Listar Mensagens</a> | ";
 
-    // área de conteúdo
-    if(empty($_SERVER['QUERY_STRING'])){
-       echo "<h3>Bem-vindo ao painel admin.";
-    }else {
-        $pg = "$_GET[pg]";
-        include_once "$pg.php";
+echo "<hr>";
+
+if (empty($_GET["pg"])) {
+
+    echo "<h3>Bem-vindo ao painel admin.</h3>";
+
+} else {
+
+    $pg = $_GET["pg"] . ".php";
+
+    if (file_exists($pg)) {
+        include_once $pg;
+    } else {
+        echo "<h3>Página não encontrada!</h3>";
     }
+}
 
+?>
