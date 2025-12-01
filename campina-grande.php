@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<?php
+$titulo_pagina = "Campina Grande: A Rainha da Borborema | Paraíba Viagens";
+$cabecalho_h1 = "Campina Grande: A Rainha da Borborema";
+$cabecalho_p = "Conheça a cidade onde tradição, tecnologia e cultura nordestina se encontram.";
+$ano_copyright = date("Y");
+?>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $titulo_pagina; ?></title>
+
+    <!-- CSS SEPARADO -->
+    <link rel="stylesheet" href="style-campina.css">
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<main class="campina-container">
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1><?php echo $cabecalho_h1; ?></h1>
+            <p><?php echo $cabecalho_p; ?></p>
+            <a href="#conteudo" class="cta-button">Explorar Campina</a>
+        </div>
+    </header>
+
+    <!-- SEÇÃO 1 – São João de Campina -->
+    <section id="conteudo" class="section dinossauros-section">
+        <h2>🎉 O Maior São João do Mundo</h2>
+
+        <div class="content-block">
+            <p>
+                Campina Grande é internacionalmente conhecida por sediar <b>O Maior São João do Mundo</b>,
+                uma festa que dura mais de 30 dias e transforma o Parque do Povo em um grande arraial de tradição,
+                música, dança e culinária típica. A cidade respira cultura nordestina, com quadrilhas,
+                forró pé de serra, apresentações artísticas e uma estrutura gigantesca.
+            </p>
+
+            <p>
+                Durante o evento, turistas de todo o Brasil e até de outros países visitam Campina para viver
+                uma experiência única que mistura alegria, tradição e muita identidade cultural.
+                É o momento em que a cidade se ilumina e revela toda a força da cultura popular paraibana.
+            </p>
+
+            <img src="https://cdn.jornaldaparaiba.com.br/img/inline/190000/900x0/Qual-e-o-Maior-Sao-Joao-do-Mundo0019089200202506060904-8.webp?fallback=https%3A%2F%2Fcdn.jornaldaparaiba.com.br%2Fimg%2Finline%2F190000%2FQual-e-o-Maior-Sao-Joao-do-Mundo0019089200202506060904.png%3Fxid%3D1128623&xid=1128623"
+                 alt="Maior São João do Mundo no Parque do Povo, Campina Grande"
+                 class="feature-image">
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SEÇÃO 2 – Cultura, Tecnologia e Identidade -->
+    <section class="section cultural-section">
+        <h2>🌵 Tradição, Tecnologia e Identidade Nordestina</h2>
+
+        <div class="content-block reverse">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIWFhUXGRcYFxgYFxcVGRcYHRgXGhcXGBgYHSggGholHhcWITEhJSorLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0mICUtLS0tLS81LS0tLS8tLS0tLS0vLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABFEAABAwIEAwYCBwUHAgcBAAABAgMRACEEEjFBBVFhBhMicYGRMqEHQlKxwdHwFCNicoIVM0OSwuHxorIWU2Nzk9LiJP/EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAtEQACAgEEAQMDBAIDAQAAAAAAAQIRAwQSITFBFCJRE4GhMpHB0WGxQnHwFf/aAAwDAQACEQMRAD8AulNIJruauCvrD5gcK7UiMOszCFGNYBt51HNTaHRyKaRTia5TERqRXMtSGlQIiUimZammnkCBvTsKIEsE6D1qFaKuoeKQQDY7c6rk3mJoTYmkaTsasNtuPKUAEGwIubEmJ30960+G4/LZcAUoSQBluYN4G4APyrF4ZxxxQBSEtgGBt0gnW8ekUU7PcXV3gbUEoQBuYObpz2gV5Wpxbm5Hp6fLtSibVOJCh1qQv+HryqkxBOYGpVYfcV5bR6SbOshDhUSkTobCY86if4G0s5iDOtS4bA5CVTc+1dexgTTUmumG1P8AUiLEcEaVl8MFMQRY2jU76Cnv4DMIKjHnqORqRGKzWAqb1pbpfIbY/ABxHY9hZBJUOYB1PWiWF4QhAACRA0kVcW9FVxizI5VTy5JKmxLHji7SKfF+CJeQRorUHkYt+cfnVbBYN5CXJtYgARE7Ec+fyokt1SlWSY9qsobO5jpTWWSjtfQnji5Wjz5ngby1w6hzJqAAlPyGmp2mr47DBQ+MpM/zW66X0ra7xvSKetbvW5fDoxWjx+eQHwjs2ywCIKiRBKoPsItt7VbZ4BhkpUkNJyqnMDeZ6mSNtNIFXlKHOud4CYmsHlm3bbNljglVID4Xsu0gkoUqCbA3IG6ZO36vRVhlKbaDlTu/AFVcRxEDbWlKc5vljUYRXBHieCsLcDvcoK7+Igekg6m2u1ZvHPqwqwpwAZwVFImORAjz35GjiuIqi2lY7tZjC66EkRkEdZN9eWldmkjKc9sujk1Mowjuj2SY7tIoxkJSn29KWF7SkG4Kp/UUAItTE16fpcVVR5vqcl3ZvmMYh3S2gnqdAakDEG4rDMYpSYvYXAmADztvWv4Px0OEpVymvPz6Vw5j0d+HUqfD7NBgF2ir4R1oLhcU2mTIHrVn+0QdK4HBnbGSME3wlarpgDqoXo92T4OgytxIUq4g3AH51mkE0T4fxZbYKQNflXu545JQaizxsEscZJtHoCsKkpKYgHlY+9UMP2bZRMA3EGbyL2I31OtCMD2lGigZ2NE2eMoVfOBGteRLHmx8cnqRyYp8gjFdjVZ4bWA2ZJkSUnYJ3ND8X2ReQCcwVYkAak8q2rXEEKsFg1zEgKTGeORBg1pHWZoun/oiWlwtWkeUKkGCINJM1qOPYNkk3/eH60zJH2hzjegbuDKQDIImLGvYx5lNWeTkxODorNwFAkSAQY59Ks4ktqEiQbWtFR5ablq2vJFkq2EZTlMqHO0jn9/vUj3CoaCgCVHcTlBB00quE0T4fxJSPCbp5VlPclcTSG1v3BvsyiWcrwB2AIuBNj93tV/CdlWQ4XDJGw2B1moOHPJUJSbkxfUaxrR9lZA1rxs2Sak64s9fDCDir5omKUgbCoGomxofxDFKvY0PYx6prmUWdDkjSPPga1SS0lataF4nGrP1Zqrh8YsKlSFRJ/WlPaJyNWltKY++oXZiaot8TzAbdKsJxYgzBqaHaKz2Kqzw5zMelRMtoctaaud1kFhTBFuRUSsSkamgz+OI3oTiseSdaFCweSg7iOJALlMHaoXOIE71njizTmXFKMDSr2Ge8M4viCUtxPiNVcNxEn8aY1wgr+t51bw/AYPxWn1ijhB7mQl5arDTnVZ1taoFaYYBITGlVQ2EmSaE/gHF+SHD4IZPFrtfesNxkhTyiN9uRFiPlPrWi41xpsSEKuOXOsit7MZ3r1NDikm5M87WZItKKGKFcCakTenAV6Jw0R5a4kkaVPkpqkUARpdOkmpf2tf2j71EpNIJpOKfgFN/JdilRZvs5iSQO7idyRA87zRf/wAGWH76+/hm/S9c09Vhj3L+Tpjpssuo/wAGRNcmtViuxqo/dugmNFCJPmNKDK4BifF+5Ph1uL/y38XpTjqcUlxL+CZ6bLHuLKCXlDRRHkamVxBw6qnzpK4a9BJaVA1sfKfKuf2c7s2o2BsCYBiDPrV3jfwRWRfJE44TqTTRVxfB3wB+6V5ASfOBtRdjsi6UypaUmLC59zUyz4ormSHHBlk+EzNqpk1dRw91SlISglSfiA296KYXse8oSopR0PiPyt86qefHD9TQo4ck/wBKM+Kemr3E+CusEZxYmAoXB/I1TUgiqU4yVpkSjKDpos4fFlOmnKiqe0KkoiJ9dKBAU5DRXZKSo9L2rDJihLmSNoZZx4iw812p0Hdx9oAk89PlV7DY1LwB7sidyAkfM3oUzj0NAoWwAsjxWjeRb2qPB4+Vgm8n4bn25aVxzwJpuMaOuGdppSkaHDNSTF41q8lpKtDQBzjSEDwpInVR3HOKMcJ4ghY8KVGIkxHua5J4pJXR1wyxbqyZzh4OlJvhkb1NiccBprULuOJ0mseTXgY5glJumpU/tJBkIHKSfwFcTiiRVsrJEiiwSQL/ALKWoyuL8qso4U2kXFPOOKT4qqYrHlWlP3MXtRI5gmTYASen30NThxnUgJIKTf2BBHMX1pqXVTNG2MYmJMZo13quieGCMSO6HjVlmh6u0KU6ZjTe0WNbcSUgypJkfcRQXh2FS44EqVAO/wCtK78Omg4bp2cObUSU9sKL+L7UuKsLDzqo1i38QoNokk8tB1J2Fa7hXBsO1cALVzXBI8uVF2kpHwpA9BUS1OKHEIfdlx0+WfM5/ZGHd7EYiAe8bJJuPFbrMX9qlb7BObvp9EnX3rYO4nKbkVGvHHYVn63P4f4NfR4Pj8mawnYxSVeNYUkTYAieV9qfi+yYCfAVZtsxEE+YFHBxFWgF6asuHUxS9VmbtsPTYkqSMDiMOptRSoQoaioiK1XHSgoUFAZ7EK3ttWYAr1sGV5I20eZmx7JUmQFNNirJRTe7rezCj1JeJA6VTexcSc1vaoipRPxA+cVg+33atLMtDXIFA5bSVKTBE6WT6K2tXzD9vZ9C5G6w3aLD2HeCSoI/qUYA9SCK5iu07KVOCbNBJUdjmUhNucZ0+eYc6+fOKIKQl1GISsmFKSJhK0mQkc4B16i5kU89p3O9QomAJPimMwukmDcBcGNPW9Z22xqbR9KnFoz5MwzRmjfLMTTiQmVWA1Jr514P2nxCsQHnsQqHQUKjwAI8KoKpGVJVmv8AwnS9e4tcbw5ZTkcsUjLuYi2tXBOTpA5pK2F/2tM1DxHiCGm1OLkISJJFz7VksLj303ShRTsMpjXSaF8a7XvL75lWCccZSCHHGk94hJBOqkmLQCQLitsuL6b5Znjz710zct8dwxSlaXEnOARHxGQDprIBEg6VbaxYWkKQoEH9flXgWP4oxiWnFNuLaU0QpsJSltKlLSrOVGZvETIJzbxAt9nu1ro7gKcKEIOZy9z3cHLAGtgI3IvauRzrwabz3RSCoELAIO1ZvifCmGwvnqlM6H8qxeL7X43ELJwiHFsoJBWFISVXEd3mUM9gdJ1o4nFF9hl0rzKIvtY3Fdulbc6VpHPqXHZdWaHA4dlaEjw6BJt0+/Wi7OCQi6UJTAgWArD4d0pP6FGFdpDEFNdGbT5L9rtGWHUY693AR4rwht0EkHNzBN+kUBxHZ4pbC2ye8Go/LrRHC8bm0pk8zFWlLKjICzOsCR91ZxnlxcNlyjiy8pHeDvpWgJcAzJAnNGv5TVt/GNtAxA8o+4UEx3AnFQWgQTrJiB/UZqsjs3iTZS0D+on7hRsxS9zl9g35Y+1Rv/Jcf4+2ZITJHpNU8Bx8hUKE5tOnSp2uxp+s8PRP5mrjXZRgXUtZjqB9wqnLTRVdkqOpk76Il8bQRY5Vdb1E3xdOXMpUk6AE6c4omzwFgaNT5lSvvMUEx3CQlak5TAun+U3+RkelZxlguqZpKGertFLiWOLhEExsOXOoWcWtOijUjuCUm+o6beY5dakY4Q6swgA76gffXoRyYdtWqOGWPNuunYlcZc6VA9j3FfWjytRNPZd7dSB6k/cKcezyU/G+kegH3qqfraaPwV9LUy+TPZasl1JRlyCRv+dFDhcCj48Wj/5EfcL0Mx2KwaVHJiARtAUr0sKT12BumwWizpWkcaxriRAV91WE8XeAiaDq4o1qCpQ5gR98VGviyYJCCfMgVM9Xo/LRUdNqvCYSexbqjJWSf1tVnCcVcRqZFCcNxllViSg/xC3uLUQSgKEpIV5X+6tYTwZV7aZlKObE/daCJ7QK+yKYePOdKHuYRYGYoUBzKSB7xUQqlgxPpCefKu2WX8YVmVAH3qpkqQCu5a3ilHhGLk5dkeWuZalilFVYgnhHXciylBVY3uQkxrNeZcT42lx9bi2G31pyf3gUpCEoUTASkgeIaz6amvT+M9oZw6kNM5YBywrodgI3/GvOMD2e7/CBeUZzmCfiBAz+I3N1KVmMnQZQIr5rVZXOfCo9vFj2Rq7MpjkhQ70NBsKC4SkKyfZtIIFwd9xpVE4VSihtAUuQCAAJJy3+ZP6FeocY7OtLwqXO7DTiWUlfdpCZOVJIUBZUG1/woR2L4EFOyZENNOb6OF4fMI/6qjm6NCDD9l0MNPt46e87vMwptyU5inwBIEBZzAi82iBFerdh8U01g2+8KUrgSAkyLC0jUf8AFois3xjgDL7fcqzA2IUASUmQAZiLdaMIZgAG/WqSd8hYR7V8bbOGWG1EKtciBEjMJJEWm9eYDj2OewRaaZQMKlLiFFJUFKAHjWkpjxFWcnmZtFxt+KYAusrQkwopISeRiheHZVgOFpC8stpUpRM2KlKXFtSCqOsdYqJKnY7bMh2ixryi0gYdOHxCittXdhIbcbLhPxK+GFDLfQJIrN8HwTryyhKZK/FGgAzRnUIskEi0aTXojXY9xbefFOQ4sSUpPdtozQooIBvACkkk3KtTVvsknCtKdSl1vvO9fEZklRbS64ET6EDrHnRViozPDmH2ng0sjwgqbQnw5hnyE5lHUG2X+WtFwFlxtsBeYzcwLX1gQY8tqL4nhubFIegBLba0jmVLUknyAy28z6zBoJEDmo+qiVH5k1tjltIlCy5wnBJWtAIJSddeWhOtFuMt4TDN53EoSARrEn1NZhhK8xJUInwwCCBAEEzczmO1jG01i+3BhRbWtRKl5kmM/doySSALySIvNkk0Zc0l5YRhFeEej4DtZgFPJbbKZMQYjc5hpFoSRzmiTXa/ClZQHJIJFpOm+mlfN6ca4hxCkEJUCIykkBQSAVdJ1j8K12AwpZZXiFQlTS2gW4OdWdaEgrUVWJCwcsWCfOudOf8AydlqTR7U72ka2Ss+gH3mqq+04HwtH1VH3CgjbRypnWBPnFDTxNP7UcMUkHu0uBWxkqBT0MJnqJ5VsPczQvdqXdkIHnJ/EVQe7R4g/XA8kp/EGgHaPihZLKEJBU442FTPhaLjba1W3lxAHmTeKuvkJBJIAFyTYAcyaAtkznGMQdXl+iiPurjTizcrUTzKiT70LwnFcO4oJQ82pR0AUL/y8/SjbKLUkxET+OeCFBC4VBykgKgxY31vXnS+1/EJM4txJmCEpbRB3HhSDr1r0R1NebdscF3b5UPhcGYfzaLH3H+qqsaRSxXFsQsyvEvq/mecI9s0UM74IWHIBUDcm5I3uelOKhULxFF+ANalwWIuOnI/oVL3l9/b9foUJ4DiQpoJ3T4fTb5W9KIZ7aGvMlHa6O6MrVl3DvHSPeN/XzpzrxiI+d+VU0uGx/X6/OpFKJNZtFpnFugAkmALkm0AamsjjeOOl3vGXHGgn4ChSkHzJSZk0V468VQ0kgJ1X1jRP4nrHWg7XD0g3MjbbzmK7tNiUfc+zlzZL9qNXwL6VOItwhbqHk/+qiTHLOjKfUzWu4H29ZxTgaewKkKUT40KSpIH2jOVQHodRXmCWwLJA9q33ZbhXcpClD94qCroNk/n18q61Jp2jmkrVM3H7Ayv+6ev9lWv4H76rYnALb+IW5i4oViqgTxR1AhKzH2T4h7GuzHqcke+UceTT45dKmFu6NMKKHtcfUPiSD/KY+RqyONMm5JB5ZT+FdkdRF+TjlhkhzjCilUKuYiw8PM3Bk+f+9XMKwEpAH6JMn5k05pNQY7HLbew7SWFrDxWFLSDDYSkGVQDrO8aGvIZ66Iu0XEAwwpREk+FIgGTE3B2gGawrPaF3O6pDcKcQ02AJGVLZc0HUE/5a23aThS338M0WlqZPed4oLyBFgUk31MRvqdNaoPcFUOJJbZSgMBhgvXE5QvFBMRcqKhePWsJKTkaKqD/AAnEKcRK0ZSLagz1tRBKK4yw2gQkgDoD87XNV+MYUPMLaS4tBVl8YFxCgTHiGsR61YqLoQBrA8zFB+0zTD7PdqfbTCkqjOnxZfqm+n+1AML9HLCVtOLxGIcU0pKhKkAKKXCsZpSTqYsdBRFPZLCgBJDqo5uqTy/8rLyoasDn0l4XEvtNtYdrOFqCi4FQUEfDaLpIUqaBdiuyqE4l0urzuMKAj6skEg3uYEHb4hW//a1QAABAAFpsPOazfBXl/tONMx+9TcACZQmRptApbR7uKNGtNV3EVCXln66vc11K1fbV/mP50xXZHin0toUtRACQT7CfzrH8S4ZiFIU66pZUvJlQgCUhYJcSVRfKlCJ0uDzrYYlrvElKlGD1n1vVrvFcz+vOspK3yM8wb4N3mPbYS0lBbzqUoD405QUEgWzAyJHTlfQr4KtnEpLrmdOIcKCk3mG1FKjy+Eif4kx1BL4I+nELUpxQ7xSwhQJCicqynbQpSoR6WrWdn8Ovu0LfVncGYpJmQFZdZ38I8qIpvsTVGiJrK8Rwil4rElsfvW2sI41tK0rxfhnYKSVIJ5LNaLvap4fCEYh16RC22kAbjIp0k+veD2rZoky/EcQlbC8auUtqewoRmBBSy3iW/EQdJUXFeRTyqDDNPP4kt4j+7ypxPdnbMcrTZGhCO7UTsVGdqM9pMc0XmsMtQSgZXnbEyEqlpsADUrGc9GwPrVSxvFx+2MrYQt1Km3EOAIUgwlSFIKC4AFKEuHLOmbpUlIMnAIUAFISQCCJAsQZBHIggUVYRagw4otxQSywu5GZbqS2lKZE2PiUqJgAR1o82LUAUnay/bTA95h1KA8TfjHkPj+Un0Fap0VRxCZBB0oA8cCqheXarfFcL3Ly29knw9Um6fOxHrND8Uq1UUXOAYvK5Gyreuo/EetaMu30+79cqwiVRcG4uPPatbh8TmSFcwD5c/wAa5M8ObN8UuKCDStuX6Fc4jxDIm3xHT8/Sq638oKjsP161n3saVrJMz8gNgKjFi3O30VOdKkT95SBqHNV7hHDy+4Eiw1UeQ/Ou5HKHOyXC86u+X8KT4BzV9ryH3+VbdqqWGbCQEpEJAAA5AVdbNBA7G0KdNEuIGhKjWqMmRLqImpHKgUqnZLR6E2V/aPvH3VMlB3qIYgDWuK4ggakVJoW0ooYlMY5w88Mz8nsR/wDanf22yLlxMeY2sapniDP7Zn71EHDgTmESl1RjXXxH2rFzj8lxDgTTgiqnCFpUjwuByCZIVm3NvKQQPKr4T+Py1pJp8osiIqJQq4UVTdKo+G8bq35WHzpioo8SxfdpsnMtXhbT9pcWBOw3J2ANA+zWHU0rEIWrMrvEKUrTMpbaFqV0lRVatE5E+WlBGLYnEdQwf+laf9IpkhPNTkmq5mnJVQwLAp01EF9aRX1qaKsHcc/w1cnB80OI/wBdPYdsKr9olfup5LbPs4kn5A1Ey9YVUSWEw7T++gT/ALUOD1U+K4YOiQE94PhKs0DWbJInU1QFzgyciVKdUjvXVFxy41NgkHdKUhKQeSaZxF1pamVpdbHcuFwnMD4Q2tDgtpZwH2oO9wZSrJLSRBSJb7wwdvEYicsiL5RVg8NWf8RA1mGU3mNQegAPOBSGHmOKsqUEpdSSTAE3KsuYp/mCbxqKI57UA4Zhe7JKlBcxHgSnLE6R6e1FQ5Y0UBx1dUn1U51yqzzlFBZie3eE+B4fyK8tUn3keorE4ldq9N480FtrQdwfQ6g+hANeXuCbGhjiyBN6P8Gd8JTOlx5fr76DJaAogyyBubiKiUdyotSpkPFMeVKyg+FJ9zzpiXDaDT14BOyj8qrGEqgEz5U0klSE3bLzcqIAEk2A5mt5wLBBluPrG6z15eQ09zvWV7NJGYrOosPxP661qmX5rRIzkwwy5NXG10HYeq+y7QItY5VvQfdQdxY1kRrM1f4i6MoB3FZ3G+NOWT7nb76LpEtcltOICk5kHMLxG8GLetQB9JvP69KjaXltYb2qAhP2vcf7Gs57n06KSRabVOt/11rM8S4u+lRzJUlOwgAdQDodvnW8xyWu8WUNynMYCSpIi+gyxHkaH4tLahlUyYOsr/8AzXg48TxZHuW79/6PWyOOaCadft/Z54eIrICT1sANIqRnEO92fiKi4BF5jKSQNxcDTnWjwPDUIxKmhmLKipSPECQAIV4o0063F7GdJw3hjDS23QldlkgZ/rJAgyU/xaV6+OO66jwebkcIdvkxXBOO4jCupcykfWhwKCT4QM17kXT71oMT9LWM+q1h0/0rP+ujf0hPNPttZWe+WnMCkOZCkeGxIFxIPsedYp/hX7tKhgCVlSwpP7QRlSAgpVNpkqWP6a0jFR6BNHqn0b9oHsbhnHX8mZLymxkTlGUNtK0JN5Wa0eJ0rC/RxjG8PhXEOp/Z1F1SgjMXZGRoBWaD9kiP4aMY/tGyEn/+if6Cf9NWJtA3t5xYs4VZQrKtRShJBggkySOuUKrFdknVvrlxxaoz5pWq4GTKCQbwVGB51L2m4p+0hYyEJbuCVRJO8RB0EeZ52udnOx2MUz3mHebbzgKEyokeEKtlIF7i+gFO01SJiWeK4dpBbhPxrKdVH/DWrc/wUO4u0kYd0pSAQkwQII6g1ocJ9HePcWhWIxbZCFE5cqx9VSZBSn+Kr+P+jZ5aSgPtgKEGe/VbysKRZ4oH1/bV/mP509L6vtq/zGvV2fodOaVvNkeGyEuJsFAq+KTdOYdJB2qxjvokbMd24lAzAnMFOSkapvGtO0FHnXBVvBJJSshSVAEhRBBE2+R9K3LeJmI3ivSMXjEybAQbeQ0NU23mvsp9hTsloxSXjyNJzEkAmvR2cWic03iJkzHKaWI4o2kSXI/qP51O4NoBe4ElP+KTpe2s3qr/AGVf47eV6djuLhSvAFLndIUuT6VWC8STbDO+qSj/ALoqxE+L4WEiUuknqkAe4VVJOIyggmm4zGOXSsFs8oUtVyALJEXJG+9NwfAnnUzLoJmww5IjT4i4B6UJoGmVsRjAKoPcSEVpmOwTjgkurT0U1lPzcqcfReDq+v8AyJH3KVRuQ9kjz7G8RBB8q87Uu5rU8fdLK3GQjxNrWhRJgkBSkoVsUTlKiDz6VX7PO4ZL4GIwSXkmUwpxbYC/DcqQYtCp6KJ2rJ5F8Gix15Aeefl8hFWUu2Hl+VbMce4a2o5uEMhA7wSrvJKo/dRmIBFjm/mBGkEy1xXhhaQtPDMJJAHiGaVWBhO2ukmolnjFWwcGeZKfBihz6/H616hxXGsBSUpwOG8X/k4VolN4uopJBvOu21SscEwwMlCSTBIJKvSJI9K55a+EVdP/AN9xVRgOFYmJ/XKj+DxVGME3w55SwhpGZo5TlSpAvvCDChINze3lLserBtwS14M5TmQCB8E5jF8sqjnKelXHXRunGX4/slwtkDWMirrGNFdTh8GpM3TPMqt6Sa61hsKPr/8AUfwFH/0MXw/2J2k7iQ5EqI8o50kcJRutXy/Ko228IHM2dycsWc62gqbgDW3XpVhpzCgqzuYi6vDC2wQIFjLVzMmbai25ta3E/P4Y9hMzwBlWq1+4/KjrPZTAkCW1k/8Auq/Ks+xi8KHCVPYkN5QEx3RVmkkz4AIiNOvlQvjHHFhyMMt7u4EZ1spJO5gJMCn6nG+mUojX+KpGYBSSrMQlOZMkyBETMieVC3MW6hSitUyJSm0a7knaw9aEh1ReSfEUlUiE/EoQIBm/wm3QcxT8XiVoKe8QoSsgAz8O4lVyFTY6C21E5WyFEOdnZex2GaIhC1KCinYFtRsT1A1Gx5V6k72Uw6QEy4QJPxCZMA6D+EV5r2KxM8SwyZSZUTEJJEIVcFKlCbRtIFer8VxgSsDpV4pNoHGL7QMb7IYcklXeElSjZwAQSSLZDtVlHZLC/YX/APKf/pUg4mkb01zjzadVgetXyV7RiuyeE3bUfN1f4RVd/svgojuB6uvn7nBSPaJK/wC6CnD/AOmlTn/aDXC1jXPgwrkc1ZUfJRCvlTp+Q48A/E9msDeWEmRAlTqssTBSVOEgiT70S4QW2QlKLJSnKANI/OqOG7OcScJ7xDbYm0LK1RzKSEjloqp1diMZs8mN7ZT7SofOq9pO2XwaNHEk8xUb/HWk6rA9axHFMOnBvobxT6LpCvGXIIK8vwtm5GpGkddTGA4xw9AW53uHT3a1NnLhhJImDJJWoEAEKBi4FZtx+TRKQVR2mQv+7CnP/bQpz/sBqUu4pz4MKsDmspR8lKCvlXVduuHpCIxgObTKCTEDUKBIuQL7zyNCuP8A0o4ZDTgYzOOpc7sCyARIzOJVfwxMGL1O6JW1kj3ZjHuGSphIP8a1EegRHzqNPYbFnXFNjySo/M/lQHjf0wrSWu5ZQAUIW5nzGFEAqbSQNjIzEDppU+B+lzwLLrYzJDSUpSIzL7xXekqJsMhRAjWfQ+qNYTTYHsLH99iFOdBmR7wq49K0OC4Ew38LLc88iZ9VGSfevOMJ9MqSlU4aTnWEwrInJmhAnxZlxroLGh+I+ljFrJShDKCLGAVEXg3UYneCNKiWWgUK6PV+P8YRhGS+7PdJIzkapBsCBv4ikf1TtXmnZX6TgsoDrsIblC84u4nJLSgq57wlCgdbkWuYz+O7UPYtqHn1qbWDKPChJG6VBAAMbihTHB8OQCGkXuJE6i3yvXLPWxj4YOVLlFrFdpW8VxLvnnC2yUJS5GZYASgpVAi6lR4VWiROlGuJ/SMW1Pfsa1ZClpLBUEjuwjMChSTNpk7E5hpFwzXCGYgIQBMmwFyIJ15W9aHufsIKUw2QYMwYAUJSVX0Mb1MdYpdJhF30g/xz6T8U+20cjTXduBa0+JYWUwEz/CFSYvdKL61LxHt9iVtBwvqvEBuUA8wCiDsdaErGGOeQlRT4IVlkm4CBJ1NveouHpYdHdqYSjKDlAgiCfFEQRc7c/bLJmc1bT4fJTT7aBXEOOB7EJcJB5lUrUqRlBUCYUYO/4VLgXCnEFDhSEpbWFFNkkLCMuXWPhI9D51Disew06GUtp7qUqE5lXsoGJ3JI30GhFGG+INOqS2WoSsR4xoZ0PtE/7iqnxFVF1X3E+QMeNufAUzNpN7ggqMW0kdL+VWsfxZK2kOIBhMhWgKQoKCjl3g5TI6aVo14RCklGVKk6Rrb5dKhRgW0qlKRmjLodAdJJsLf7VzvNj72mW5ArAcXhmYVLfdpMiM0oCtNuXr0oXxHj7iwoNhQyqiQDm1FjaJgkR1mtattJBSQDoYyixBn10p6UdBpyH5/r5VKywi92wN1eAK7xhaGmlBClKVBXY2J1REa3EeQqpgePuKLbZQtKJ7tRKSpWawlSrRcgm1oPpp4J3tvYRodumkeYpndcom2k3jSI30pLLBJpxHvpVRnsBxQh1SFhQQlSwFEG/ISsSQIMR0q9isaEuhORRTElQHMwIB3k+16Iu4YL8Kk5rTlgkG1/TX0muHDjcKg6XV5aetJ5IN3QnJPwVM6VWCwfITqJ2H6iqALnf5Y/dkSTEAWF56k6UUGHbBVCbqvab6nfzJqbSYAFuk9dKSnGN1+RWVAyNj0HhN/apEszuPX/AIpyXVXFlTzi2hj7uddC/XyP+9Q38DRlsRxJSk2KCVyACJPizQkX0AUD6mZgE6XA8Gw+KwicVisU+nMtSO7GWCEAFaiMhhMmYnkJzEJrEOYtEZwjUka5gf6VSLCLxE7G1WUY6EFKTYFaxnPQTlIi5gXA+rpy9lY0uUjo2Rb5DHC8Shl9txrMhxKvCVJBCfAoZsoAF9Y5HeTWsR2gw+KfCHMWpolxaAotJSju8yu7dKlLsFAAHkTevLG+KrkARblYHeSNJ6xNWi4mM4Hi0Kha1heNbX961i5QBxxyPZsFwjBF5LX7Y484pC3EgJ+JKSQoRmgmxgEXi2hovgE8OStYCmQltKSpwpSIJC1nMbFEJRMk3m2leEpx4UUnOcxBAMnwhKSgAGSUgDMkAWg8pqpi8cIACfrXOkgJKQByGUm9V9STI2pdH0yvthgGk+LFtiFKRGbMZTM2EmLGDofUVQ4j9JGAbSSl4rVBKUhC05iJtmUmBpr1FfNi8UVKGUX2i5sOmogfKbUR4slSSlPiJyzaVZpAM9BIjyAqHKVpBaPcm/pXwigChp4qP1SEJIMAkfFeJqJ36UPs4U/1OAfIIrxXguHfS4hZScsKBJuANfEIteDetKnEG/wxYWiOm+v68+PPmyRlUJf6MpS54LnbXHjiDzbykllSUd2Mq5m5VI0hQ9fh3gRnh2cSMwC13I5SIOlvIbHSlxjBOPFKm3EphMEGZNzEQnSNp3NXeDYcshQcczZiDPIwMx13tb9DJ5cm3dv5+KE5f5KLnZ9JIPeKECCRESNCZFvS1qc12eSBOcmRAPhtO4tv1/MUc75B53J2FgT1MXmYpv7QifCTztAidzby9zzrJ6jL8i3MFDgWkOKEDW0n8Abn5muL7Nyf70m4KQcqogjQe/vRcOJ3UomeYEj1Hz0p/eIiRNzYEg8x66j2o9Rk+Q3y+QS3wAi6nAok2OUgAAi0Tr58garr7MjOpQeEKBABRMTbmJHTW1HlLRsFc+fh6kDrvy3pzbot4TfflYR0P65UepyryPfIzrPZlZBl8aggZITEK2zQDc+V9b1fRwhxLZSl2FZpmNLRETcb3vaiRdmIRyvpv6dba9N6cXoE5RHp7ibx7VMtRkl2/wAIf1JPyUH+GrLiSpZyjISIJkpMggk2uJuNjPKhH/hJRUrO9rIACdNwNdBf5aVqP2jYxcxr13v8tfa/FYm1gbawQQN4idNNetEc+WK4YtzAGE7MOpzQ7dRkeAxPMjNU3Bezq21Z1PAkSRAAjMDM36fdRdD1xGadiCDz0k630HPenF8nax321IJN73tbX2pvPlaab7/6H9SVUCcT2VQ4rOVrBi0EaCdJSbGa632TRIKnHFxtmEHnACQd/maKh0ncSdxHmZvp7fKA/v8ANcGOVyY0vPlvS+rlr9QtzG4fDZUhOdSon4oJIvuAP+KeUm4k2vqD50u+Inobxe42JnXofwp4XBMiYzCc2nw8yLch5Vi02+RDQSBcgevX/inFxIM62J8+d+f5V1SyNIAm4nQRNpII/wB9qiK1nQJnab+QA58qNoh3eSZmRbry6+keVPIF95A6X/X3VDKrwNb8o2HkNKjLq4PhMG9jqPQdPlS2ASvW/wCT+r00uEf4Z8rH/VTlPmIyK3O46kSRMCP1oY1Ys6BsyNdNLAjrsNfyqlABvek6pVz0BhPOyuo05UzPG59EK/3n9eVPTi/4THOxO8nKdZiY6DfRLxG8EAyJJv0kabA+u01W0BjWKQfrQeqFD/u11/WtLvG93Y6AA1wPJ/5gg+2o/QpnfA7x86exDAGG7MtgxqTBEzsbjlU+J7PAq1GRIgJTtoJkA5tJ6kmlSrX1WW7sW5lBvssM0qd8A2A8R6T6jb2oi7whJIhaglI0EXOk3nUUqVD1OWT7FuZEjgzKQJzKiwJVEDbQR8r0QhCkJQW0lKdBGbLrFzpvSpVMsk5dthbHBCdkJEckpBBtMHnXAn0t0Fp/51pUqzcmIcy3+rfd604/06chr+ovFKlU2wHJ0sflb12O3sKfPUmZm820j5V2lQBFI1H4+ug5VIlaYMpG+2s/qfT2VKkAs4H1QfTwwRbYR08qTbxJgiZ0BSQN/wAZtvEUqVWkMatWxA2209/u/Rc6ofaAJEaiRA3J09+lKlTSsDnhI+KZ5eK2lucacqeHLQVeXMCeu2+1dpUONOgsYAdwL+nmJ8vuroROyZvsDf35ya7SqWA5Cbjwp1F4m/Ue8/oVzOOcmd5N/nYTewmaVKhKwHKeFwBJ5jN157Tfnpveu58osD5xyOgFrzO/vrSpUJgcS/BsBbQRbnuPFoNefnTU4kHYGARYGw9DuQL+vOVSq0xWNW6bHpGkWBNogW/M+nDih0B1HisDpaw3i9vLSlSqlyFkgfJFgBAm5gWBkySQTyjn6U1nEkmypJvuSDN49B7e9KlRQWdViidrbxIGtgTqDv6U1eJ3ncwDaY0n8SZ35ClSqQsanEkRaIBPnyEE6T586iVi1wJNhuBtyN/Preu0qpBYz9tg6mI0IB+RHKR60i/zJEaaXHOw5z6RSpUxn//Z"
+                 alt="Cultura e tecnologia em Campina Grande"
+                 class="feature-image">
+
+            <p>
+                Campina Grande também é conhecida como um dos mais importantes polos tecnológicos do Brasil,
+                abrigando universidades, parques tecnológicos e pesquisas reconhecidas internacionalmente.
+                Esse encontro entre conhecimento e cultura cria uma cidade vibrante e inovadora.
+            </p>
+
+            <p>
+                Ao mesmo tempo, Campina preserva seu lado humano, nordestino e forte.
+                Feiras, artesanato, gastronomia regional e a religiosidade convivem com startups,
+                eventos científicos e centros de pesquisa. Uma cidade que une o futuro e a tradição.
+            </p>
+        </div>
+    </section>
+
+     <?php
+                echo "<a href='?pg=passagens'>Voltar</a>";
+            ?>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>© <?php echo $ano_copyright; ?> Paraíba Viagens | Explore Campina Grande e sua cultura única.</p>
+    </footer>
+
+</main>
+
+</body>
+</html>

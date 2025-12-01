@@ -1,0 +1,251 @@
+
+:root {
+    /* Paleta de Cores Mais Legível */
+    --cor-primaria: #160066; /* Azul Escuro (Para Títulos e Destaques) */
+    --cor-secundaria: #e65022; /* Laranja (Para Detalhes e Botões CTA) */
+    --cor-fundo: #ecf1ec; /* Fundo Suave */
+    --cor-texto-principal: #0a0b0c; /* Texto Principal (Preto Forte) */
+    --cor-card-fundo: #dcf3de; /* Fundo dos Blocos de Conteúdo (suavemente verde/claro) */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-principal);
+    /* Tamanho base: 16px. Todos os REMs são calculados a partir daqui. */
+    font-size: 16px; 
+}
+
+.sousa-container {
+    /* Largura máxima do conteúdo centralizado (Ex: 1000px) */
+    max-width: 62.5rem; 
+    margin: 0 auto;
+    /* Espaçamento interno lateral (20px) */
+    padding: 0 1.25rem; 
+}
+
+/* 2. ESTILOS DE TÍTULOS */
+
+
+h1 {
+    font-size: 3rem; 
+    font-weight: 500;
+    margin-bottom: 0.625rem; /* 10px CORRIGIDO */ 
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2.2rem; 
+    color: var(--cor-primaria);
+    /* Margem superior e inferior (40px/30px) */
+    margin: 2.5rem auto 1.875rem; 
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.9375rem; 
+    font-weight: 700;
+}
+
+/* Linha de destaque sob o h2 */
+h2::after {
+    content: '';
+    display: block;
+    width: 5rem; 
+    height: 0.3125rem; 
+    background-color: var(--cor-secundaria);
+    margin: 0.625rem auto 0; 
+    border-radius: 0.1875rem; 
+}
+
+
+.hero {
+    background-image: url('hero-sousa.jpg'); /* Caminho Local */
+    background-size: cover;
+    background-position: center;
+    height: 34.375rem; /* 550px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.4); 
+    margin-bottom: 3.125rem; 
+    position: relative;
+    z-index: 1;
+}
+
+/* Overlay escuro para garantir que o texto branco seja lido */
+.hero::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.hero-content {
+    padding: 2.5rem 3.75rem; 
+    border-radius: 0.75rem; 
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Efeito moderno de desfoque */
+    backdrop-filter: blur(5px); 
+}
+
+.hero-content h1 {
+    font-size: 2.5rem; 
+    font-weight: 900;
+    text-shadow: 0.1875rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.7); 
+}
+
+.hero-content p {
+    font-size: 1.25rem; 
+    margin-bottom: 1.875rem; 
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.6); 
+}
+
+/* Botão de Chamada para Ação (CTA) */
+.cta-button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-card-fundo); /* Cor clara do card */
+    padding: 0.9375rem 2.1875rem; 
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0.5rem; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    font-size: 1.1em; /* Proporcional ao contêiner */
+    letter-spacing: 0.5px;
+}
+
+.cta-button:hover {
+    background-color: #d35400; /* Laranja mais escuro */
+    transform: translateY(-0.1875rem); 
+}
+
+/* 4. SEÇÕES DE CONTEÚDO (CARDS FLEX) */
+.content-block {
+    /* Define o Flexbox para alinhar texto e imagem horizontalmente */
+    display: flex;
+    align-items: center;
+    gap: 2.5rem; 
+    padding: 1.875rem; 
+    background-color: var(--cor-card-fundo);
+    border-radius: 0.75rem; 
+    box-shadow: 0 0.375rem 0.9375rem rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2.5rem; 
+}
+
+.content-block:hover {
+    transform: translateY(-0.3125rem); 
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.15); 
+}
+
+/* Inverte a ordem para a segunda seção (imagem à esquerda) */
+.content-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-block p {
+    /* Ocupa o espaço restante ao lado da imagem */
+    flex: 1; 
+    font-size: 1.1rem; 
+    text-align: justify;
+    color: #34495e; 
+}
+
+.feature-image {
+    /* Garante que a imagem e o texto dividam o espaço (50/50) */
+    flex: 1;
+    /* Garante que a imagem não ultrapasse 50% do bloco em telas grandes */
+    max-width: 50%;
+    /* Garante que a imagem se ajuste ao contêiner em telas pequenas */
+    width: 100%; 
+    height: auto;
+    border-radius: 0.625rem; 
+    box-shadow: 0 0.375rem 0.9375rem rgba(0, 0, 0, 0.2); 
+    object-fit: cover;
+}
+
+.dinossauros-section p b {
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+.cultural-section p b {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #bdc3c7; 
+    margin: 3.75rem 0; 
+}
+
+/* 5. RODAPÉ */
+.rodape {
+    text-align: center;
+    padding: 1.5625rem; 
+    background-color: var(--cor-texto-principal);
+    color: var(--cor-fundo);
+    margin-top: 3.75rem; 
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* 6. RESPONSIVIDADE (TOTALMENTE PROPORCIONAL) */
+
+/* Para telas de até 900px */
+@media (max-width: 56.25rem) { 
+    /* Reduz o tamanho base da fonte (tudo em REM escala junto) */
+    body {
+        font-size: 15px; 
+    }
+
+    /* Em telas menores, o layout dos cards muda de linha (imagem acima, texto abaixo) */
+    .content-block,
+    .content-block.reverse {
+        flex-direction: column; 
+        gap: 1.25rem; 
+    }
+
+    /* A imagem ocupa toda a largura disponível (100% do bloco) */
+    .feature-image {
+        max-width: 100%; 
+        margin-top: 1.25rem; 
+    }
+}
+
+/* Para telas de até 600px (Mobile) */
+@media (max-width: 37.5rem) { 
+    /* Reduz o tamanho base da fonte (tudo em REM escala junto) */
+    body {
+        font-size: 14px; 
+    }
+
+    .sousa-container {
+        padding: 0 0.9375rem; 
+    }
+    
+    .hero {
+        height: 25rem; 
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .content-block {
+        padding: 1.25rem; 
+    }
+
+}

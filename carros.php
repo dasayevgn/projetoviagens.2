@@ -45,7 +45,7 @@
                         <span>Ar Condicionado</span>
                     </div>
                     <p class="price">R$ 90/dia</p>
-                    <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                    <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                 </div>
 
                 <div class="car-card">
@@ -58,11 +58,11 @@
                         <span>Ar Condicionado</span>
                     </div>
                     <p class="price">R$ 100/dia</p>
-                    <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                    <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                 </div>
 
                 <div class="car-card">
-                    <img src="https://revistacarro.com.br/wp-content/uploads/2022/01/COROLLA-ALTIS-PREMIUM-HYBRID-1.jpg"
+                    <img src="https://lh4.googleusercontent.com/proxy/jiCHrPIOvhXsEMNZ92aYXfXE0Gc3Dw6n01T2L6nyp2DxzuDltp6UqnL1th9GIuOthU7BJ69DIFmbB3Qk7_HdvvWuj-ys3A4YglS9JgEi0TIrCwyJ0IAVK_cN4X7fsg9XpB_gDUe9jQ08WGs"
                         height='200' width='300' alt="Toyota Corolla">
                     <h3>Toyota Corolla</h3>
                     <div class="car-details">
@@ -71,7 +71,7 @@
                         <span>Completo</span>
                     </div>
                     <p class="price">R$ 150/dia</p>
-                    <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                    <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                 </div>
 
                 <div class="car-card">
@@ -84,7 +84,7 @@
                         <span>Completo</span>
                     </div>
                     <p class="price">R$ 160/dia</p>
-                    <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                    <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                 </div>
 
                 <div class="car-card">
@@ -97,7 +97,7 @@
                         <span>Completo</span>
                     </div>
                     <p class="price">R$ 180/dia</p>
-                    <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                    <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                 </div>
 
                 <div class="car-card">
@@ -110,7 +110,7 @@
                         <span>Completo</span>
                     </div>
                     <p class="price">R$ 250/dia</p>
-                    <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                    <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                 </div>
             </div>
         </div>
