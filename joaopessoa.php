@@ -14,7 +14,7 @@ $ano_copyright = date("Y");
     <title><?php echo $titulo_pagina; ?></title>
 
     <link rel="stylesheet" href="style-joaopessoa.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/42/7f/photo3jpg.jpg?w=700&h=400&s=1" rel="stylesheet">
 </head>
 <body>
 
@@ -43,7 +43,7 @@ $ano_copyright = date("Y");
                 </p>
 
                 <img 
-                    src="https://visitpb.com.br/wp-content/uploads/2021/08/praia-de-cabo-branco.jpg"
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/42/7f/photo3jpg.jpg?w=700&h=400&s=1"
                     alt="Praia de Cabo Branco - João Pessoa"
                     class="feature-image"
                 />
@@ -57,7 +57,7 @@ $ano_copyright = date("Y");
             <h2>🏛️ Estação Cabo Branco – Arte, Ciência e Inovação</h2>
             <div class="content-block reverse">
                 <img 
-                    src="https://www.prefeiturajp.pb.gov.br/media/2019/10/estacao-cabo-branco-1.jpg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShga-o_D0Tw7FlZ57REINwEBJYdjuOqdkZA&s"
                     alt="Estação Cabo Branco - João Pessoa"
                     class="feature-image"
                 />
@@ -88,7 +88,7 @@ $ano_copyright = date("Y");
                 </p>
 
                 <img 
-                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/09/de/c0/centro-cultural-sao.jpg?w=1200&h=1200&s=1"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGZ_t5NPntrQIPEU00ct2A0U4KG0fh8VfOA&s"
                     alt="Centro Cultural São Francisco - João Pessoa"
                     class="feature-image"
                 />
@@ -104,3 +104,6 @@ $ano_copyright = date("Y");
 
 </body>
 </html>
+
+            
+        
