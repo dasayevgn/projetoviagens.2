@@ -14,7 +14,7 @@
 
                             </div>
                             <p class="price">R$ 202</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
 
                         <div class="car-card">
@@ -27,7 +27,7 @@
 
                             </div>
                             <p class="price">R$ 153</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
 
                         <div class="car-card">
@@ -40,7 +40,7 @@
 
                             </div>
                             <p class="price">R$ 145</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
 
                         <div class="car-card">
@@ -53,7 +53,7 @@
 
                             </div>
                             <p class="price">R$ 130</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
 
                         <div class="car-card">
@@ -66,7 +66,7 @@
 
                             </div>
                             <p class="price">R$ 168 e R$265</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
 
                         <div class="car-card">
@@ -79,7 +79,7 @@
 
                             </div>
                             <p class="price">R$ 202</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
                         <div class="car-card">
                             <img src="https://th.bing.com/th/id/OIP.9EwPb_1tam6JlESaof7rQQAAAA?rs=1&pid=ImgDetMain"
@@ -91,7 +91,7 @@
 
                             </div>
                             <p class="price">R$ 130</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
                         <div class="car-card">
                             <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/424981611.jpg?k=4d5dba7db189a154575667e2b459ae287952d30c10681daa61dc46b687313d63&o=&hp=1"
@@ -103,7 +103,7 @@
 
                             </div>
                             <p class="price">R$ 368</p>
-                            <a href="cadastro.html" class="btn-secondary">Reservar Agora</a>
+                            <a href="?pg=cadastro" class="btn-secondary">Reservar Agora</a>
                         </div>
                     </div>
 
