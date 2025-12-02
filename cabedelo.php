@@ -98,9 +98,6 @@ $ano_copyright = date("Y");
                 echo "<a href='?pg=passagens'>Voltar</a>";
             ?>
 
-        <footer class="rodape">
-            <p>© <?php echo $ano_copyright; ?> Paraíba Viagens | Descubra Cabedelo e sua história à beira-mar.</p>
-        </footer>
 
     </main>
 

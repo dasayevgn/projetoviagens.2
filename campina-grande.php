@@ -84,10 +84,6 @@ $ano_copyright = date("Y");
                 echo "<a href='?pg=passagens'>Voltar</a>";
             ?>
 
-    <!-- RODAPÉ -->
-    <footer class="rodape">
-        <p>© <?php echo $ano_copyright; ?> Paraíba Viagens | Explore Campina Grande e sua cultura única.</p>
-    </footer>
 
 </main>
 

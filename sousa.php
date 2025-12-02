@@ -59,11 +59,7 @@ $ano_copyright = date("Y"); // Pega o ano atual (ex: 2025)
                 echo "<a href='?pg=passagens'>Voltar</a>";
             ?>
 
-        <footer class="rodape">
-            <p>© <?php echo $ano_copyright; ?> Paraíba Viagens | Descubra Sousa e suas histórias milenares.</p> </footer>
-        <?php
-        
-        ?>
+
     </main>
 
 </body>

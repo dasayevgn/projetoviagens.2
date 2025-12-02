@@ -143,13 +143,6 @@ h2::after {
 /* =======================
         RODAPÉ
 ======================= */
-.rodape {
-    background-color: var(--cor-texto-principal);
-    color: var(--cor-fundo);
-    text-align: center;
-    padding: 1.5625rem;
-    margin-top: 3.75rem;
-}
 
 /* =======================
       RESPONSIVIDADE

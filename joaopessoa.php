@@ -99,10 +99,6 @@ $ano_copyright = date("Y");
                 echo "<a href='?pg=passagens'>Voltar</a>";
             ?>
 
-        <!-- RODAPÉ -->
-        <footer class="rodape">
-            <p>© <?php echo $ano_copyright; ?> Paraíba Viagens | Explore João Pessoa e suas maravilhas naturais.</p>
-        </footer>
 
     </main>
 

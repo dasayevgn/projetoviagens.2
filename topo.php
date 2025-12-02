@@ -11,7 +11,7 @@
 
 <body>
   <header class="header">
-    <a href='?pg=passagens'> <img src="imagens\logo.png"> </a>
+    <a href="?pg=passagens"> <img src="imagens\logo2.png"> </a>
 
     <ul>
       <li><a href="?pg=cadastro"><i class="bi bi-person-circle"></i>Cadastro</a></li>
