@@ -1,0 +1,154 @@
+/* VARIÁVEIS */
+:root {
+    --cor-primaria: #005285; /* Azul oceânico */
+    --cor-secundaria: #ffc107; /* Amarelo quente */
+    --cor-fundo: #f1f7f9;
+    --cor-texto: #0a0b0c;
+    --cor-card: #e8f3f7;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+}
+
+.jp-container {
+    max-width: 62.5rem;
+    margin: auto;
+    padding: 0 1.25rem;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.6rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    color: var(--cor-primaria);
+    text-align: center;
+    margin: 2.5rem auto 1.8rem;
+    font-weight: 700;
+}
+
+h2::after {
+    content: '';
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--cor-secundaria);
+    display: block;
+    margin: 0.6rem auto 0;
+    border-radius: 0.2rem;
+}
+
+/* HERO */
+.hero {
+    background-image: url('hero-joaopessoa.jpg'); /* Substitua pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.45);
+    z-index: -1;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 2rem 3rem;
+    background-color: rgba(0,0,0,0.35);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(5px);
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* BOTÃO */
+.cta-button {
+    background-color: var(--cor-secundaria);
+    color: #222;
+    font-weight: 700;
+    padding: 0.9rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    filter: brightness(1.1);
+}
+
+/* CONTEÚDO */
+.content-block {
+    display: flex;
+    gap: 2.5rem;
+    padding: 1.8rem;
+    background-color: var(--cor-card);
+    border-radius: 0.7rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 0.3rem 0.9rem rgba(0,0,0,0.1);
+}
+
+.content-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-block p {
+    flex: 1;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.feature-image {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.3rem 0.9rem rgba(0,0,0,0.2);
+}
+
+/* RODAPÉ */
+.rodape {
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .content-block,
+    .content-block.reverse {
+        flex-direction: column;
+    }
+
+    .feature-image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .hero { height: 26rem; }
+}
