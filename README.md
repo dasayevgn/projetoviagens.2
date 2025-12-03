@@ -34,5 +34,5 @@ CREATE TABLE clientes (
     idade INT NOT NULL,
     email VARCHAR(120) NOT NULL,
     senha VARCHAR(255) NOT NULL,
-    termo TINYINT(1) DEFAULT 0,
+    termo TINYINT(1) DEFAULT 0
 )
